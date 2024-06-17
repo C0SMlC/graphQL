@@ -1,4 +1,4 @@
-const Review = `#graphql
+export const Review = `#graphql
     type Review{
         id:ID!,
         title:String!,
@@ -10,4 +10,3 @@ const Review = `#graphql
         reviews:[Review]!
     }
 `;
-module.exports = Review;
